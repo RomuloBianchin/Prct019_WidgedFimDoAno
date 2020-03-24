@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Na pasta xml estão os atríbutos relacionados a característica do widget.
+    como tamanhos, tempo de atualização, imagem drawable,etc..
+-->
+
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="145dp"
+    android:minHeight="120dp"
+    android:updatePeriodMillis="1000"
+    android:previewImage="@drawable/example_appwidget_preview"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen"
+    android:initialKeyguardLayout="@layout/new_app_widget"
+    android:initialLayout="@layout/new_app_widget">
+</appwidget-provider>
